@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Code of the paper: The TYC Dataset for Understanding Instance-Level Semantics and Motions of Cells in Microstructures"
+authors:
+  - family-names: Reich
+    given-names: Christoph
+  - family-names: Prangemeier
+    given-names: Tim
+  - family-names: Koeppl
+    given-names: Heinz
+title: "The TYC Dataset for Understanding Instance-Level Semantics and Motions of Cells in Microstructures"
+version: 0.1.0
+date-released: 2023-08-22
