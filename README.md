@@ -1,6 +1,6 @@
 # The TYC Dataset for Understanding Instance-Level Semantics and Motions of Cells in Microstructures
 
-[![arXiv](https://img.shields.io/badge/cs.CV-arXiv%3A2304.07597-B31B1B.svg)](https://arxiv.org/abs/2304.07597)
+[![arXiv](https://img.shields.io/badge/cs.CV-arXiv%3A2308.12116-B31B1B.svg)](https://arxiv.org/abs/2308.12116)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Framework](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 
@@ -8,7 +8,7 @@
 , [Tim Prangemeier](https://scholar.google.com/citations?user=Ut23u2YAAAAJ&hl=en)
 & [Heinz Koeppl](https://www.bcs.tu-darmstadt.de/team_sos/koepplheinz_sos.en.jsp)**<br/>
 
-## | [Project Page](https://christophreich1996.github.io/tyc_dataset/) | [Paper](https://arxiv.org/abs/2304.07597) |  [Download Dataset](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/3799) |
+## | [Project Page](https://christophreich1996.github.io/tyc_dataset/) | [Paper](https://arxiv.org/abs/2308.12116) |  [Download Dataset](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/3930) |
 
 <p align="center">
   <img src="github/first_fig.gif"  alt="1" width = 600px height = 400px >
@@ -19,7 +19,17 @@
 </p>
 
 ```
-wget https://tudatalib.ulb.tu-darmstadt.de/bitstream/handle/tudatalib/3799/yeast_cell_in_microstructures_dataset.zip
+# Download labeled set
+wget https://tudatalib.ulb.tu-darmstadt.de/bitstream/handle/tudatalib/3930/labeled_set.zip
+# Download unlabeled set
+wget https://tudatalib.ulb.tu-darmstadt.de/bitstream/handle/tudatalib/3930/unlabeled_set_1.zip
+wget https://tudatalib.ulb.tu-darmstadt.de/bitstream/handle/tudatalib/3930/unlabeled_set_2.zip
+wget https://tudatalib.ulb.tu-darmstadt.de/bitstream/handle/tudatalib/3930/unlabeled_set_3.zip
+# Unzip files
+unzip labeled_set.zip
+unzip unlabeled_set_1.zip
+unzip unlabeled_set_2.zip
+unzip unlabeled_set_3.zip
 ```
 
 ## Abstract
