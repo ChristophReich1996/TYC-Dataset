@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  This repository includes the <b>official</b> and <b>maintained</b> <a href="https://pytorch.org/">PyTorch</a> <b>validation</b> (+ data loading & visualization) code of the TYC dataset proposed in <a href="https://arxiv.org">The TYC Dataset for Understanding Instance-Level Semantics and Motions of Cells in Microstructures</a>.
+  This repository includes the <b>official</b> and <b>maintained</b> <a href="https://pytorch.org/">PyTorch</a> <b>validation</b> (+ data loading & visualization) code of the TYC dataset proposed in <a href="https://arxiv.org/abs/2308.12116">The TYC Dataset for Understanding Instance-Level Semantics and Motions of Cells in Microstructures</a>.
 </p>
 
 ```
@@ -307,7 +307,7 @@ An example use of all visualization functions is provided in [`example_vis.py`](
 
 Due to the vastly different usage of our unlabeled video clips, we don't provide a dataset class implementation.
 However, you can load the individual frames of the provided video clips by using `cv2.imread(path_to_image, -1)`. Note
-that currently [torchvision](https://pytorch.org/vision/stable/index.html) does not support loading 16-bit TIFF image.
+that currently [torchvision](https://pytorch.org/vision/stable/index.html) does not support loading 16-bit TIFF images.
 For details on the dataformat of the unlabeled set please refer to the dataformat section.
 
 ## Dataset Statistics
