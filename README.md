@@ -47,7 +47,7 @@ effort also exceeds previous attempts in terms of microstructure variability, re
 device (microscopy) variability. We facilitate a unified comparison on our novel dataset by introducing a standardized
 evaluation strategy. TYC and evaluation code are publicly available under CC BY 4.0 license.*
 
-**If you use our dataset or find this research useful in your work, please cite both of our papers:**
+**If you use our dataset or find this research useful in your work, please cite both of our dataset papers:**
 
 ```bibtex
 @inproceedings{Reich2023b,
